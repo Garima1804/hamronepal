@@ -1,0 +1,55 @@
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    background-color:lightcyan;
+}
+
+.things{
+    text-align: center;
+}
+
+.things img{
+    width: 60%;
+    height: 80vh;
+    
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px black;
+
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    
+}
+
+.things h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+           color: black;
+           letter-spacing: 1px;
+           margin-bottom: 15px;
+           text-shadow: 1px 1px 2px rgb(10, 10, 14);
+}
+
+.things p{
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 550;
+    font-style: italic;
+    text-align: center;
+    word-spacing: 4px;
+    text-shadow: 0.5px 0.5px 1px rgb(10, 10, 14);
+}
+
+.title-text p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+           color: red;;
+           letter-spacing: 1px;
+           margin-top: 35px;
+           text-shadow: 0.5px 0.5px 1px rgb(10, 10, 14);
+
+}

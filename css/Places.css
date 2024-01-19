@@ -1,0 +1,63 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.red{
+    display: flex;
+}
+
+.Places-img{
+    position: relative;
+    cursor: pointer;    
+}
+
+.Places-img img{
+    height: 60vh;
+    width: 99%;
+    margin: 2.5px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px 5px black;
+
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.transition-image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+}
+
+.transition-image:hover{
+    opacity: 1;
+} 
+
+.heading{
+    text-align: center;
+    color: darkred;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px yellow;
+    
+}
+
+.Places a{
+    width: 65%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px #8b0000;
+}
+
+
